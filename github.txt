@@ -1,0 +1,19 @@
+git config --global user.name "username"
+git config --global user.email "email"
+git init:	first time it will give your an error: initialized is empty git repository
+ls:  check files in directory
+git add .	this will update branch master, means ready to connect to git
+git commit -m "My First Commit"  this create connection
+git status     this will show, if the connection is success, nothing to commit, working tree clean
+git remote add origin https://github.com/waqar321/projectName.git
+git push -u origin master
+
+update:
+		ls   check directory
+		git status:			this will show you which file is not updated
+		git add .			this will update branch master, means ready to connect to git
+		git status 			this time status will show you your branch is up to date
+		git commit -m "editted testing html"  a last commit to your repository, this shows what you changed
+		git status        if success, this shows nothing to commit
+		git log          this shows your detial
+		git push origin master  this will finaly uploads yours filesgit
